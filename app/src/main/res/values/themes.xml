@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- On utilise .DarkActionBar pour que le titre "Stars" soit blanc sur fond rouge -->
+    <style name="Base.Theme.StarsGallery7" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Couleur de la barre (Rouge) -->
+        <item name="colorPrimary">@color/red_primary</item>
+        <item name="colorPrimaryVariant">@color/red_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Couleur des étoiles et accents (Bleu) -->
+        <item name="colorSecondary">@color/star_blue</item>
+        <item name="colorSecondaryVariant">@color/star_blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Couleur de la barre de notification (tout en haut) -->
+        <item name="android:statusBarColor">@color/red_dark</item>
+    </style>
+
+    <style name="Theme.StarsGallery7" parent="Base.Theme.StarsGallery7" />
+</resources>
